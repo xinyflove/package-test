@@ -1,0 +1,22 @@
+{
+    "name": "peak-xin/package-test",
+    "description": "这是一个简单测试开发Laravel扩展包",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Peak Xin",
+            "email": "xinyflove@sina.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PeakXin\\PackageTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PeakXin\\PackageTest\\Tests\\": "tests/"
+        }
+    }
+}
