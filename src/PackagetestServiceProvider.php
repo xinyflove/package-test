@@ -8,12 +8,13 @@ class PackagetestServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
+     * 在注册后进行服务的启动。
      *
      * @return void
      */
     public function boot()
     {
-        //
+        $this->publishes([__DIR__.'/../config/msgsender.php' => config_path('msgsender.php')]);
     }
 
     /**
