@@ -8,15 +8,5 @@
             "email": "xinyflove@sina.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "PeakXin\\PackageTest\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "PeakXin\\PackageTest\\Tests\\": "tests/"
-        }
-    }
+    "require": {}
 }
