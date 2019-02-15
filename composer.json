@@ -8,12 +8,20 @@
             "email": "xinyflove@sina.com"
         }
     ],
-    "require": {},
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "PeakXin\\PackageTest\\PackagetestServiceProvider"
             ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "PeakXin\\PackageTest\\": "src/"
         }
     }
 }
